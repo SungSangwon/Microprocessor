@@ -36,7 +36,7 @@
     
 * ### Functions used in code
 
-### 온도센서를 위한 함수들
+## 온도센서를 위한 함수들
 * ### 함수설명에 앞서 I2C 통신에 대해 간단히 설명하겠습니다.
 
           I2C는 Inter Integrated Cricuit의 줄임말로 TWI(Two Wire Interface)라고도 불립니다. 
@@ -57,20 +57,24 @@
 * ### void I2c_stop(void);
   I2C 전송을 중단하는 함수.
 > ### void temp_init(void);
-  ### int temp_read(void);
-  ### int int_temp(int value);
+> ### int temp_read(void);
+> ### int int_temp(int value);
+
           -위의 세 함수들은 온도 Data를 aTS75센서로 부터 받아 저장하는 것과 관련된 함수입니다.
           
-### 습도센서를 위한 함수들
+## 습도센서를 위한 함수들
 * ### unsigned int conversionHumidity (unsigned int x);
-
+  Vout 값을 지정된 습도값으로 변환하여주는 함수입니다.
 * ### void ADCInit();
-
-### Dotmatrix로 출력을 위한 함수들
+  기준전압 정의 및 입력채널을 선택해주고 ADC기능 활성화를 하는 함수입니다.
+  
+## Dotmatrix로 출력을 위한 함수들
 * ### void Display_Dotmatrix(unsigned int value);
-
+  각각의 표정들을 Dotxmatrix에 할당해주는 함수입니다.
+  
 * ### void display_FND(int value);
-
+  불쾌지수 값을 가지고 FND로 출력해주는 함수입니다.
+  
 * ### 실험 결과
 
 ![7](https://user-images.githubusercontent.com/44973398/48904166-e5a87280-eea0-11e8-8e71-86fb93c5b83f.PNG)
