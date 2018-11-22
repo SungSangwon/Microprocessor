@@ -1,15 +1,16 @@
 * ### 목적
 
-     -입력 값을 추정하며 찾아 출력하는 FSM(Finite State Machine)을 구현 하는 것이 Term Project의 목적입니다.
+          -입력 값을 추정하며 찾아 출력하는 FSM(Finite State Machine)을 구현 하는 것이 Term Project의 목적입니다.
      
 * ### Detail Project Description 
-    입력 값을 넣으면 정해진 상태에 따른 결과값과 그 결과값을 다시 입력 값으로 넣어
-    근사치를 연속적으로 추정하여 값을 일치시키는 FSM(Finite State Machine)을 구현하는 것이
-    이번 project의 목적입니다. 
-    원래는 아날로그 값을 받아 출력을 찾는 것이 마땅하지만, 
-    이 project에서는 입력 값을 임의의 8bit값으로 정하여 사용하겠습니다. 
-    어셈블리어로 converter함수를 구현하여 입력과 출력의 값을 비교하고, 
-    반복작업을 통해 입력 값을 찾고 그 입력 값을 LED로 출력하는 FSM으로 작동하는 DigitalCircuit을 구현하겠습니다.  
+
+          입력 값을 넣으면 정해진 상태에 따른 결과값과 그 결과값을 다시 입력 값으로 넣어
+          근사치를 연속적으로 추정하여 값을 일치시키는 FSM(Finite State Machine)을 구현하는 것이
+          이번 project의 목적입니다. 
+          원래는 아날로그 값을 받아 출력을 찾는 것이 마땅하지만, 
+          이 project에서는 입력 값을 임의의 8bit값으로 정하여 사용하겠습니다. 
+          어셈블리어로 converter함수를 구현하여 입력과 출력의 값을 비교하고, 
+          반복작업을 통해 입력 값을 찾고 그 입력 값을 LED로 출력하는 FSM으로 작동하는 DigitalCircuit을 구현하겠습니다.  
 
 
 
