@@ -74,7 +74,7 @@
   
 * ### void display_FND(int value);
   불쾌지수 값을 가지고 FND로 출력해주는 함수입니다.
-  * * *
+* * *
 * ### 실험 결과
 
 ![7](https://user-images.githubusercontent.com/44973398/48904166-e5a87280-eea0-11e8-8e71-86fb93c5b83f.PNG)
