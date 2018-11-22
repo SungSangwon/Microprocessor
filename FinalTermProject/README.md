@@ -37,19 +37,25 @@
 * ### Functions used in code
 
 ### 온도센서를 위한 함수들
+* ### 함수설명에 앞서 I2C 통신에 대해 간단히 설명하겠습니다.
+
+          I2C는 Inter Integrated Cricuit의 줄임말로 TWI(Two Wire Interface)라고도 불립니다. 
+          하나의 마스터와 하나이상의 슬레이브로 이루어진 Data 통신방식입니다.
+          출처: https://elecs.tistory.com/11 [늦깎이 공대생의 좌충우돌 이야기]
+          
 * ### void I2C_Init(void);
   I2C 초기화하는 함수. 
   16000000 / (16 + (2x12))*prescaler = 400000Hz = 400kHz로 지정. 
   prescaler = 1로 지정한다.
   
 * ### void I2C_start(void);
-
+  I2C 를 시작하는 함수.
 * ### void I2C_write(unsigned char data);
-
+  I2C 데이터를 받아오기 시작하는 함수.
 * ### unsigned char I2C_read(unsigned char ackVal);
-
+  I2C 데이터를 읽기 시작하는 함수.
 * ### void I2c_stop(void);
-
+  I2C 전송을 중단하는 함수.
 * ### void temp_init(void);
 
 * ### int temp_read(void);
