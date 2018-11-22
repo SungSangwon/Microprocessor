@@ -36,6 +36,36 @@
     
 * ### Functions used in code
 
+### 온도센서를 위한 함수들
+* ### void I2C_Init(void);
+: I2C 초기화하는 함수. 
+  16000000 / (16 + (2x12)) x prescaler = 400000Hz = 400kHz로 지정. 
+  prescaler = 1로 지정한다.
+  
+* ###void I2C_start(void);
+
+* ###void I2C_write(unsigned char data);
+
+* ###unsigned char I2C_read(unsigned char ackVal);
+
+* ###void I2c_stop(void);
+
+* ###void temp_init(void);
+
+* ###int temp_read(void);
+
+* ###int int_temp(int value);
+
+### 습도센서를 위한 함수들
+* ###unsigned int conversionHumidity (unsigned int x);
+
+* ###void ADCInit();
+
+### Dotmatrix로 출력을 위한 함수들
+* ###void Display_Dotmatrix(unsigned int value);
+
+* ###void display_FND(int value);
+
 * ### 실험 결과
 
 ![7](https://user-images.githubusercontent.com/44973398/48904166-e5a87280-eea0-11e8-8e71-86fb93c5b83f.PNG)
