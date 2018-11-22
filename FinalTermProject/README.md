@@ -56,12 +56,11 @@
   I2C 데이터를 읽기 시작하는 함수.
 * ### void I2c_stop(void);
   I2C 전송을 중단하는 함수.
-* ### void temp_init(void);
-
-* ### int temp_read(void);
-
-* ### int int_temp(int value);
-
+> ### void temp_init(void);
+  ### int temp_read(void);
+  ### int int_temp(int value);
+          -위의 세 함수들은 온도 Data를 aTS75센서로 부터 받아 저장하는 것과 관련된 함수입니다.
+          
 ### 습도센서를 위한 함수들
 * ### unsigned int conversionHumidity (unsigned int x);
 
