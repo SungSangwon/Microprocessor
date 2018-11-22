@@ -10,9 +10,9 @@
 
 ![8](https://user-images.githubusercontent.com/44973398/48904583-31a7e700-eea2-11e8-8f01-8834432acb42.PNG)
                    
-                 -EPXFDNH3 정전용량방식 습도센서 :습도센서. 
-                  BVD-8518SG1: 표정출력을 위한 8x8 dotmatrix. 
-                  aTS75 : 온도측정센서
+          -EPXFDNH3 정전용량방식 습도센서 :습도센서. 
+          BVD-8518SG1: 표정출력을 위한 8x8 dotmatrix. 
+          aTS75 : 온도측정센서
 
 
 * ### 하드웨어블록 및 다이어그램설계
