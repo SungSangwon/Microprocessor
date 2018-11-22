@@ -1,4 +1,4 @@
-# * 목적
+* # 목적
 
      -입력 값을 추정하며 찾아 출력하는 FSM(Finite State Machine)을 구현 하는 것이 Term Project의 목적입니다.
      
